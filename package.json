@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-stripes",
+  "name": "@folio/eslint-config-stripes",
   "version": "0.0.1",
   "description": "The shared eslint configuration for stripes applications and extensions",
   "main": "index.js",
