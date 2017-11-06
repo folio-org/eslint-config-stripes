@@ -13,6 +13,7 @@ module.exports = {
     "node": true,
   },
   "rules": {
+    "prefer-const": "off",
     "import/extensions": ["warn", "never"],
     "jsx-a11y/href-no-hash": "off", // deprecated rule
     "jsx-a11y/label-has-for": "off",
