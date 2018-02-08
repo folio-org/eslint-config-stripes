@@ -13,6 +13,7 @@ module.exports = {
     "node": true,
   },
   "rules": {
+    "prefer-const": "off",
     "import/extensions": ["warn", "never"],
     "import/no-extraneous-dependencies": ["error", {
       "peerDependencies": true
