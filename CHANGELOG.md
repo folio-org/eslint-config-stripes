@@ -1,5 +1,10 @@
 # Change history for eslint-config-stripes
 
+## [3.2.2](https://github.com/folio-org/eslint-config-stripes/tree/v3.2.2) (2019-01-24)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v3.2.1...v3.2.2)
+
+* Re-releasing 3.2.1 as 3.2.2 because we accidentally published breaking changes without a major version bump.
+
 ## [3.2.1](https://github.com/folio-org/eslint-config-stripes/tree/v3.2.1) (2018-09-14)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v3.2.0...v3.2.1)
 
