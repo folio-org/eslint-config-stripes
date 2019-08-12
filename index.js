@@ -12,7 +12,7 @@ module.exports = {
     "browser": true,
     "node": true,
   },
-  "plugins": ["react-hooks"],
+  "plugins": ["react-hooks", "no-only-tests"],
   "rules": {
     "arrow-body-style": "off",
     "arrow-parens": "off",
@@ -64,6 +64,7 @@ module.exports = {
       "ignoreEOLComments": true,
     }],
     "no-nested-ternary": "off",
+    "no-only-tests/no-only-tests": "error",
     "no-param-reassign": ["error", {
       "props": false
     }],
