@@ -1,10 +1,10 @@
 # Change history for eslint-config-stripes
 
-## [4.1.1](https://github.com/folio-org/eslint-config-stripes/tree/v4.1.1) (2019-08-12)
+## [4.2.0](https://github.com/folio-org/eslint-config-stripes/tree/v4.2.0) (2019-08-12)
 * Add eslint plugin [eslint-plugin-no-only-tests](https://www.npmjs.com/package/eslint-plugin-no-only-tests) for warning about .only in tests
 
 ## [4.1.0](https://github.com/folio-org/eslint-config-stripes/tree/v4.1.0) (2019-01-03)
-[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v4.1.0...v4.1.1)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v4.1.0...v4.2.0)
 
 * Add eslint [rules](https://reactjs.org/docs/hooks-rules.html) for react hooks (ESCONF-2)
 

@@ -1,6 +1,6 @@
 {
   "name": "@folio/eslint-config-stripes",
-  "version": "4.1.1",
+  "version": "4.2.0",
   "description": "The shared eslint configuration for stripes applications and extensions",
   "main": "index.js",
   "repository": "https://github.com/folio-org/eslint-config-stripes",
