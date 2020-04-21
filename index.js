@@ -86,6 +86,16 @@ module.exports = {
     "react/jsx-curly-newline": "off",
     "react/jsx-filename-extension": "off",
     "react/jsx-props-no-spreading": "off",
+    "react/jsx-sort-props": [
+      1,
+      {
+        noSortAlphabetically: true,
+        ignoreCase: true,
+        callbacksLast: true,
+        shorthandLast: false,
+        reservedFirst: false,
+      },
+    ],
     "react/jsx-wrap-multilines": "off",
     "react/no-array-index-key": "off",
     "react/prefer-stateless-function": "off",

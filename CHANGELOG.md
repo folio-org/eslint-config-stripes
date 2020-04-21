@@ -1,5 +1,8 @@
 # Change history for eslint-config-stripes
 
+## (IN PROGRESS)
+* Turn on `react/jsx-sort-props` with warning on `callbacksLast` - callbacks must be listed after all other props
+
 ## [5.2.0](https://github.com/folio-org/eslint-config-stripes/tree/v5.2.0) (2020-02-18)
 * Turn off and `react/jsx-curly-newline` and `react/state-in-constructor` rules since they contradict patterns already well-established in our codebases.
 * Turn off `max-classes-per-file` rule for test files since it is perfectly acceptable and common to have multiple classes in a single test file (for example: interactor files).
