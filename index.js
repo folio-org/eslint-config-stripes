@@ -61,6 +61,7 @@ module.exports = {
     "max-len": "off",
     "no-console": "warn",
     "no-else-return": "off",
+    "no-multiple-empty-lines": "off",
     "no-multi-spaces": ["error", {
       "ignoreEOLComments": true,
     }],
