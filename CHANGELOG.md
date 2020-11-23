@@ -2,7 +2,8 @@
 
 ## 5.3.0
 
-Turn off `react/jsx-one-expression-per-line` so we can avoid `{' '}` which is just silly.
+* Turn off `react/jsx-one-expression-per-line` so we can avoid `{' '}` which is just silly.
+* Update `elinst-plugin-import` to `2.22.1` to avoid barfing on `∞` somewhere in a transitive dependency.
 
 ## [5.2.0](https://github.com/folio-org/eslint-config-stripes/tree/v5.2.0) (2020-02-18)
 * Turn off and `react/jsx-curly-newline` and `react/state-in-constructor` rules since they contradict patterns already well-established in our codebases.
