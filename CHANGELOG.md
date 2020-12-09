@@ -1,7 +1,10 @@
 # Change history for eslint-config-stripes
 
-## 5.3.0
+## [5.3.0](https://github.com/folio-org/eslint-config-stripes/tree/v5.3.0) (2020-12-09)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v5.2.0...v5.3.0)
 
+* Turn off `camelcase` for methods prefixed with UNSAFE_ (i.e. deprecated react lifecycle methods).
+* Turn off `no-multiple-empty-lines` so we can use whitespace freely.
 * Turn off `react/jsx-one-expression-per-line` so we can avoid `{' '}` which is just silly.
 * Update `elinst-plugin-import` to `2.22.1` to avoid barfing on `∞` somewhere in a transitive dependency.
 
