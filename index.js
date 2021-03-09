@@ -73,6 +73,7 @@ module.exports = {
     }],
     "no-plusplus": "off",
     "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
+    "no-return-await": "off",
     "no-underscore-dangle": "off",
     "no-unused-vars": ["warn", {
       "argsIgnorePattern": "^_"
