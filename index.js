@@ -1,3 +1,5 @@
+const { babelOptions } = require('@folio/stripes-webpack');
+
 module.exports = {
   "extends": "airbnb",
   "settings": {
@@ -123,5 +125,10 @@ module.exports = {
         "prefer-arrow-callback": "off",
       }
     }
-  ]
+  ],
+  parser: "@babel/eslint-parser",
+  parserOptions: {
+    requireConfigFile: false,
+    babelOptions,
+  }
 };
