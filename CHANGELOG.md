@@ -5,6 +5,7 @@
 
 * Turn off `react/jsx-uses-react` and `react/react-in-jsx-scope`. Refs ESCONF-4.
 * Migrate from `babel-eslint` to `@babel/eslint-parser`. Refs ESCONF-8.
+* Migrate to `@folio/stripes-webpack` `v2`, which provides babel config options. Refs ESCONF-10.
 
 ## [5.4.0](https://github.com/folio-org/eslint-config-stripes/tree/v5.4.0) (2021-03-19)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v5.3.0...v5.4.0)
