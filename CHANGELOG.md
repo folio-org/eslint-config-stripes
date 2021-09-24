@@ -1,6 +1,7 @@
 # Change history for eslint-config-stripes
 
-## [6.0.0] IN PROGRESS
+## [6.0.0](https://github.com/folio-org/eslint-config-stripes/tree/v6.0.0) (2021-09-24)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v5.4.0...v6.0.0)
 
 * Turn off `react/jsx-uses-react` and `react/react-in-jsx-scope`. Refs ESCONF-4.
 * Migrate from `babel-eslint` to `@babel/eslint-parser`. Refs ESCONF-8.
