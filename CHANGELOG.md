@@ -1,9 +1,5 @@
 # Change history for eslint-config-stripes
 
-## [6.1.0] IN PROGRESS
-
-* Migrate to `@folio/stripes-webpack` `v3`. Refs ESCONF-13.
-
 ## [6.0.0](https://github.com/folio-org/eslint-config-stripes/tree/v6.0.0) (2021-09-24)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v5.4.0...v6.0.0)
 
