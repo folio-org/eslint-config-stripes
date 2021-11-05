@@ -3,7 +3,6 @@
 ## [5.5.0] IN PROGRESS
 
 * Turn off `react/jsx-uses-react` and `react/react-in-jsx-scope`. Refs ESCONF-4.
-* Upgrade to `webpack` `v5`. Refs ESCONF-13.
 
 ## [5.4.0](https://github.com/folio-org/eslint-config-stripes/tree/v5.4.0) (2021-03-19)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v5.3.0...v5.4.0)
