@@ -1,5 +1,7 @@
 # Change history for eslint-config-stripes
 
+## 6.2.0 IN PROGRESS
+
 ## [6.1.0](https://github.com/folio-org/eslint-config-stripes/tree/v6.1.0) (2022-02-08)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v6.0.0...v6.1.0)
 
