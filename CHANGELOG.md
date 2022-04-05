@@ -1,6 +1,7 @@
 # Change history for eslint-config-stripes
 
-## 6.2.0 IN PROGRESS
+## [6.1.1](https://github.com/folio-org/eslint-config-stripes/tree/v6.1.1) (2022-04-05)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v6.1.0...v6.1.1)
 
 * Pin `webpack` to avoid conflicts with `karma-webpack` and `moment`. Refs ESCONF-16.
 
