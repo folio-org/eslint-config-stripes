@@ -3,6 +3,7 @@
 ## 6.2.0 IN PROGRESS
 
 * Pin `webpack` to avoid conflicts with `karma-webpack` and `moment`. Refs ESCONF-16.
+* Bump `@folio/stripes-webpack` to `v4` so it stays in sync with `@folio/stripes-cli`. Refs ESCONF-18.
 
 ## [6.1.0](https://github.com/folio-org/eslint-config-stripes/tree/v6.1.0) (2022-02-08)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v6.0.0...v6.1.0)
