@@ -138,6 +138,12 @@ module.exports = {
         "plugin:@typescript-eslint/recommended",
         "plugin:import/typescript",
       ],
+      "rules": {
+        // must disable the traditional rule
+        // as it reports false positive on TS
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": ["error"]
+      }
     },
     {
       files: ["**/*.d.ts"],
