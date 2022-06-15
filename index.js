@@ -123,8 +123,28 @@ module.exports = {
         // lexically bound "this" prevents access to the Mocha test context.
         // See https://mochajs.org/#arrow-functions
         "prefer-arrow-callback": "off",
-      }
-    }
+      },
+    },
+    {
+      files: ["**/*.ts", "**/*.tsx"],
+      parser: "@typescript-eslint/parser",
+      parserOptions: {
+        ecmaVersion: 2018,
+        sourceType: "module",
+      },
+      plugins: ["@typescript-eslint"],
+      extends: [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:import/typescript",
+      ],
+    },
+    {
+      files: ["**/*.d.ts"],
+      rules: {
+        "react/no-unused-prop-types": "off",
+      },
+    },
   ],
   parser: "@babel/eslint-parser",
   parserOptions: {
