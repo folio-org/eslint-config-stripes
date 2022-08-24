@@ -1,5 +1,9 @@
 # Change history for eslint-config-stripes
 
+## 6.3.0 IN PROGRESS
+
+* Loosen rules applied to tests and files recognized as tests. ESCONF-20.
+
 ## [6.2.0](https://github.com/folio-org/eslint-config-stripes/tree/v6.2.0) (2022-06-14)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v6.1.0...v6.2.0)
 

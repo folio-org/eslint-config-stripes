@@ -116,13 +116,23 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["**/test/**"],
+      files: ["**/test/**", "src/**/tests/*", "*.test.js"],
       rules: {
+        // tests may mock multiple classes for convenience; that's cool
         "max-classes-per-file": "off",
+
+        // sure, tests can write to the console
         "no-console": "off",
+
         // lexically bound "this" prevents access to the Mocha test context.
         // See https://mochajs.org/#arrow-functions
         "prefer-arrow-callback": "off",
+
+        // we do not care about proptypes in mocks
+        "react/prop-types": "off",
+
+        // sometimes a mock will have a single export and we're not picky about that
+        "import/prefer-default-export": "off"
       }
     }
   ],
