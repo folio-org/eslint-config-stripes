@@ -133,8 +133,36 @@ module.exports = {
 
         // sometimes a mock will have a single export and we're not picky about that
         "import/prefer-default-export": "off"
+      },
+    },
+    {
+      files: ["**/*.ts", "**/*.tsx"],
+      parser: "@typescript-eslint/parser",
+      parserOptions: {
+        ecmaVersion: 2018,
+        sourceType: "module",
+      },
+      plugins: ["@typescript-eslint"],
+      extends: [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:import/typescript",
+      ],
+      "rules": {
+        // must disable the traditional rule
+        // as it reports false positive on TS
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": ["error"],
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": ["error"],
       }
-    }
+    },
+    {
+      files: ["**/*.d.ts"],
+      rules: {
+        "react/no-unused-prop-types": "off",
+      },
+    },
   ],
   parser: "@babel/eslint-parser",
   parserOptions: {

@@ -19,6 +19,8 @@
     "@babel/core": "^7.18.13",
     "@babel/eslint-parser": "^7.15.0",
     "@folio/stripes-webpack": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-import-resolver-webpack": "^0.13.1",
     "eslint-plugin-babel": "5.3.1",
