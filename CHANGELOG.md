@@ -1,6 +1,7 @@
 # Change history for eslint-config-stripes
 
-## 6.3.0 IN PROGRESS
+## [6.3.0](https://github.com/folio-org/eslint-config-stripes/tree/v6.3.0) (2022-10-13)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v6.2.0...v6.3.0)
 
 * Update eslint-plugins to current values. Refs ESCONF-21.
 * Bump CI Node env from v12 to v16. Refs ESCONF-22.
