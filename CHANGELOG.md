@@ -1,5 +1,8 @@
 # Change history for eslint-config-stripes
 
+## 6.4.0 (IN PROGRESS)
+
+* Include all deps as direct deps, so this package has no peer-deps. Refs ESCONF-29.
 
 ## [6.3.1](https://github.com/folio-org/eslint-config-stripes/tree/v6.3.1) (2022-11-23)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v6.3.0...v6.3.1)
