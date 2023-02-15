@@ -1,8 +1,14 @@
 # Change history for eslint-config-stripes
 
-## 6.4.0 (IN PROGRESS)
+## [6.4.0](https://github.com/folio-org/eslint-config-stripes/tree/v6.4.0) (2023-02-15)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v6.3.1...v6.4.0)
 
-* Include all deps as direct deps, so this package has no peer-deps. Refs ESCONF-29.
+* Bump `@folio/stripes-webpack` to `^4.2` for compatibility with current `@folio/stripes-cli`. Refs ESCONF-30.
+
+## [6.3.2](https://github.com/folio-org/eslint-config-stripes/tree/v6.3.2) (2023-02-15)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v6.3.1...v6.3.2)
+
+* Lock `stripes-webpack` to `~4.1` which finds its entrypoint in `stripes-core`. Refs ESCONF-30.
 
 ## [6.3.1](https://github.com/folio-org/eslint-config-stripes/tree/v6.3.1) (2022-11-23)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v6.3.0...v6.3.1)
