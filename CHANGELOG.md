@@ -1,5 +1,8 @@
 # Change history for eslint-config-stripes
 
+## 6.3.2 IN PROGRESS
+
+* Lock `stripes-webpack` to `~4.1` which finds its entrypoint in `stripes-core`. Refs ESCONF-30.
 
 ## [6.3.1](https://github.com/folio-org/eslint-config-stripes/tree/v6.3.1) (2022-11-23)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v6.3.0...v6.3.1)
