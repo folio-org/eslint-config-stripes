@@ -2,6 +2,8 @@
 
 ## 6.5.0 IN PROGRESS
 
+* Unlock `webpack` from `~5.68.0`. Refs STCLI-222.
+
 ## [6.4.0](https://github.com/folio-org/eslint-config-stripes/tree/v6.4.0) (2023-02-15)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v6.3.1...v6.4.0)
 
