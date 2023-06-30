@@ -1,6 +1,6 @@
 {
   "name": "@folio/eslint-config-stripes",
-  "version": "6.5.0",
+  "version": "7.0.0",
   "description": "The shared eslint configuration for stripes applications and extensions",
   "main": "index.js",
   "repository": "https://github.com/folio-org/eslint-config-stripes",
@@ -12,7 +12,7 @@
   "dependencies": {
     "@babel/core": "^7.18.13",
     "@babel/eslint-parser": "^7.15.0",
-    "@folio/stripes-webpack": "^4.2.0",
+    "@folio/stripes-webpack": "^5.0.0",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
     "eslint": "^7.32.0",
