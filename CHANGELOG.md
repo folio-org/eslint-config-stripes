@@ -1,6 +1,7 @@
 # Change history for eslint-config-stripes
 
-## 7.0.0 IN PROGRESS
+## [7.0.0](https://github.com/folio-org/eslint-config-stripes/tree/v7.0.0) (2023-10-11)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v6.4.0...v7.0.0)
 
 * Unlock `webpack` from `~5.68.0`. Refs STCLI-222.
 * *BREAKING* Bump `@folio/stripes-webpack` to `5.0.0`. Refs ESCONF-32.
