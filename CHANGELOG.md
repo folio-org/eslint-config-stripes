@@ -1,7 +1,11 @@
 # Change history for eslint-config-stripes
 
-## 7.1.0 IN PROGRESS
+## 7.2.0 IN PROGRESS
 
+## [7.1.0](https://github.com/folio-org/eslint-config-stripes/tree/v7.1.0) (2024-03-13)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v7.0.0...v7.1.0)
+
+* Remove explicit typescript version. Refs ESCONF-38.
 * Update `@typescript-eslint` packages to `^6.21.0`. Refs ESCONF-40.
 
 ## [7.0.0](https://github.com/folio-org/eslint-config-stripes/tree/v7.0.0) (2023-10-11)
