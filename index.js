@@ -36,6 +36,7 @@ module.exports = {
       "peerDependencies": true
     }],
     "import/no-unresolved": ["error", { "ignore": ["react", "react-dom", "stripes-config"] } ],
+    "import/prefer-default-export": "off",
     "jsx-a11y/anchor-is-valid": ["error", {
       "components": ["Link"],
       "specialLink": ["to"]
