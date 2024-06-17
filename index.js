@@ -7,7 +7,7 @@ module.exports = {
       "webpack": {}
     },
     "react": {
-      "version": "16.3.0"
+      "version": "detect"
     },
   },
   "env": {
