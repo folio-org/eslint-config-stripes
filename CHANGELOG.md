@@ -2,6 +2,7 @@
 
 ## 7.2.0 IN PROGRESS
 
+* Update `eslint-plugin-react` to `^7.30.1`. Refs ESCONF-44.
 * Turn off `import/prefer-default-export`. Refs ESCONF-42.
 
 ## [7.1.0](https://github.com/folio-org/eslint-config-stripes/tree/v7.1.0) (2024-03-13)
