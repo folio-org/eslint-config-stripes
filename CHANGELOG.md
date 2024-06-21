@@ -1,9 +1,9 @@
 # Change history for eslint-config-stripes
 
-## 7.2.0 IN PROGRESS
+## 8.0.0 IN PROGRESS
 
-* Set ESlint React version setting to `detect`. Refs ESCONF-43.
 * Turn off `import/prefer-default-export`. Refs ESCONF-42.
+* *BREAKING* Set ESlint React version setting to `detect`. Refs ESCONF-43.
 
 ## [7.1.0](https://github.com/folio-org/eslint-config-stripes/tree/v7.1.0) (2024-03-13)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v7.0.0...v7.1.0)
