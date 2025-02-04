@@ -1,6 +1,6 @@
 # Change history for eslint-config-stripes
 
-## 7.2.0 IN PROGRESS
+## 8.0.0 IN PROGRESS
 
 * Turn off `import/prefer-default-export`. Refs ESCONF-42.
 
