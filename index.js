@@ -87,9 +87,6 @@ module.exports = {
     "prefer-template": "off",
     "quote-props": "off",
     "react/destructuring-assignment": ["off"],
-    "react/forbid-prop-types": ["warn", {
-      "forbid": ["any", "array"]
-    }],
     "react/jsx-curly-newline": "off",
     "react/jsx-filename-extension": "off",
     "react/jsx-one-expression-per-line": "off",
@@ -98,6 +95,7 @@ module.exports = {
     "react/jsx-wrap-multilines": "off",
     "react/no-array-index-key": "off",
     "react/prefer-stateless-function": "off",
+    "react/prop-types": "off", // ESCONF-49
     "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
     "react/sort-comp": ["warn", {
@@ -128,9 +126,6 @@ module.exports = {
         // lexically bound "this" prevents access to the Mocha test context.
         // See https://mochajs.org/#arrow-functions
         "prefer-arrow-callback": "off",
-
-        // we do not care about proptypes in mocks
-        "react/prop-types": "off",
 
         // sometimes a mock will have a single export and we're not picky about that
         "import/prefer-default-export": "off"
