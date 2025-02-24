@@ -1,5 +1,10 @@
 # Change history for eslint-config-stripes
 
+## [8.0.1](https://github.com/folio-org/eslint-config-stripes/tree/v8.0.1) (2025-02-24)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v8.0.0...v8.0.1)
+
+* Loosen GA workflow compatibility to `^1.0.0`. Refs ESCONF-50.
+
 ## [8.0.0](https://github.com/folio-org/eslint-config-stripes/tree/v8.0.0) (2025-02-24)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v7.1.0...v8.0.0)
 
