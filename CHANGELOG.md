@@ -1,6 +1,7 @@
 # Change history for eslint-config-stripes
 
-## 8.0.0 IN PROGRESS
+## [8.0.0](https://github.com/folio-org/eslint-config-stripes/tree/v8.0.0) (2025-02-24)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v7.1.0...v8.0.0)
 
 * Turn off `import/prefer-default-export`. Refs ESCONF-42.
 * *BREAKING* Bump `@folio/stripes-webpack` to `v6`.
