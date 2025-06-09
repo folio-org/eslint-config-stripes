@@ -109,6 +109,9 @@ module.exports = {
     }],
     "react/state-in-constructor": "off",
     "react/static-property-placement": "off",
+    "react/style-prop-object": ["error", {
+      "allow": ["FormattedNumber"]
+    }],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
 
