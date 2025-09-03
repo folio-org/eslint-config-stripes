@@ -96,6 +96,7 @@ module.exports = {
     "react/no-array-index-key": "off",
     "react/prefer-stateless-function": "off",
     "react/prop-types": "off", // ESCONF-49
+    "react/forbid-prop-types": "off", // ESCONF-53, follow-up to ESCONF-49
     "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
     "react/sort-comp": ["warn", {
