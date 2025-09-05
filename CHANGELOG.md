@@ -1,12 +1,21 @@
 # Change history for eslint-config-stripes
 
-## 8.0.0 IN PROGRESS
+## IN PROGRESS
+
+* Turn off `react/forbid-prop-types`. Refs ESCONF-53.
+* Allow `<FormattedNumber>` to accept string values in its `style` prop. Refs ESCONF-52.
+
+## [8.0.1](https://github.com/folio-org/eslint-config-stripes/tree/v8.0.1) (2025-02-24)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v8.0.0...v8.0.1)
+
+* Loosen GA workflow compatibility to `^1.0.0`. Refs ESCONF-50.
+
+## [8.0.0](https://github.com/folio-org/eslint-config-stripes/tree/v8.0.0) (2025-02-24)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v7.1.0...v8.0.0)
 
 * Turn off `import/prefer-default-export`. Refs ESCONF-42.
 * *BREAKING* Bump `@folio/stripes-webpack` to `v6`.
 * Turn off `react/prop-types`. Refs ESCONF-49.
-* Loosen GA workflow compatibility to `^1.0.0`. Refs ESCONF-50.
-* Allow `<FormattedNumber>` to accept string values in its `style` prop. Refs ESCONF-52.
 
 ## [7.1.0](https://github.com/folio-org/eslint-config-stripes/tree/v7.1.0) (2024-03-13)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v7.0.0...v7.1.0)
