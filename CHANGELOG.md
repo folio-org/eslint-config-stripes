@@ -4,6 +4,7 @@
 
 * Turn off `react/forbid-prop-types`. Refs ESCONF-53.
 * Allow `<FormattedNumber>` to accept string values in its `style` prop. Refs ESCONF-52.
+* Enable `eslint2020` and `jest` globals.
 
 ## [8.0.1](https://github.com/folio-org/eslint-config-stripes/tree/v8.0.1) (2025-02-24)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v8.0.0...v8.0.1)
