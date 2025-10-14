@@ -13,6 +13,8 @@ module.exports = {
   "env": {
     "browser": true,
     "node": true,
+    "jest": true,
+    "es2020": true,
   },
   "plugins": ["react-hooks", "no-only-tests"],
   "rules": {
