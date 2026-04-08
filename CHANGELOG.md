@@ -6,6 +6,7 @@
 * Allow `<FormattedNumber>` to accept string values in its `style` prop. Refs ESCONF-52.
 * Enable `eslint2020` and `jest` globals.
 * Include `yarn.lock` to avoid future supply chain attacks. Refs ESCONF-56.
+* *BREAKING* Bump `@folio/stripes-webpack` to `v7`. Refs ESCONF-56.
 
 ## [8.0.1](https://github.com/folio-org/eslint-config-stripes/tree/v8.0.1) (2025-02-24)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v8.0.0...v8.0.1)
