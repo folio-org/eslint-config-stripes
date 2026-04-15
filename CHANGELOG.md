@@ -1,6 +1,6 @@
 # Change history for eslint-config-stripes
 
-## IN PROGRESS
+## [9.0.0](https://github.com/folio-org/eslint-config-stripes/tree/v9.0.0) (2026-04-15)
 
 * Turn off `react/forbid-prop-types`. Refs ESCONF-53.
 * Allow `<FormattedNumber>` to accept string values in its `style` prop. Refs ESCONF-52.
