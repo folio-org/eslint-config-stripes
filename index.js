@@ -6,13 +6,21 @@ export const lintConfig = {
   "env": {
     "browser": true,
     "es2021": true,
-    "jest": true,
   },
   // https://oxc.rs/docs/guide/usage/linter/plugins.html#supported-plugins
-  "plugins": ["jsx-a11y", "react", "react-perf"],
+  "plugins": ["import", "jsx-a11y", "react", "react-perf"],
   "settings": {
     "jsx-a11y/aria-role": "warn"
   },
+
+  // different rules for tests
+  "overrides": [
+    {
+      "env": { "jest": true },
+      "files": ["**/test/**", "src/**/tests/*", "*.test.js"],
+      "plugins": ["jest"],
+    },
+  ],
 };
 
 // https://oxc.rs/docs/guide/usage/linter/config-file-reference.html
