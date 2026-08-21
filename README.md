@@ -35,8 +35,8 @@ Add entries to the `scripts` section of `package.json`:
 ```
 "fmt": "stripes-fmt ./src ./test",
 "fmt:check": "stripes-fmt --check ./src ./test",
-"lint": "stripes-lint --react-plugin --react-perf-plugin ./src",
-"lint:fix": "stripes-lint --react-plugin --react-perf-plugin --fix ./src",
+"lint": "stripes-lint ./src",
+"lint:fix": "stripes-lint --fix ./src",
 ```
 
 ## Usage
