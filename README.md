@@ -1,50 +1,51 @@
 # eslint-config-stripes
 
-This package provides an extensible shared [ESLint](https://eslint.org) config, intended to promote consistent code style among applications built with [FOLIO Stripes](https://github.com/folio-org/stripes-core).
+This package exports linter and formatter configurations (`lintConfig`,
+`fmtConfig`), functions (`defineLintConfig`, `defineFmtConfig`) and scripts
+(`stripes-lint`, `stripes-fmt`).
 
-## Installation
-If you haven't already installed ESLint as a dev dependency in your project, it's a required peer of `eslint-config-stripes`:
-```
-yarn add eslint -D
-```
+## Description
 
-Then add `eslint-config-stripes` to your `devDependencies`:
-```
-yarn add eslint-config-stripes -D
-```
+This package uses [oxlint](https://oxc.rs/docs/guide/usage/linter.html) and
+[oxfmt](https://oxc.rs/docs/guide/usage/formatter.html) under the hood. The
+`stripes-lint` and `stripes-fmt` scripts are simple pass-through scripts that
+delegate to those tools, allowing this repository to be self-contained and
+permitting dependent packages to depend on this package and **no others**.
 
-Create `.eslintrc` in the root of your project. Its contents:
-```
-{
-  "extends": "stripes"
-}
-```
+## Installation and configuration
 
-### Using Babel?
-If you're extensively using newer JavaScript syntax with Babel, you may want to use [`babel-eslint`](https://github.com/babel/babel-eslint) in your FOLIO project.
+Add this repository as a dev-dep:
 ```
-yarn add babel-eslint -D
+yarn add -D @folio/eslint-config-stripes
 ```
 
-In `.eslintrc`, specify your parser:
+Create `oxlint.config.mts` and `oxfmt.config.mts` files in the root of your
+project:
 ```
-{
-  "extends": "stripes",
-  "parser": "babel-eslint"
-}
+// oxfmt.config.mts
+import { defineLintConfig, lintConfig } from "@folio/eslint-config-stripes";
+export default defineConfig({ ...lintConfig });
+
+// oxfmt.config.mts
+import { defineFmtConfig, fmttConfig } from "@folio/eslint-config-stripes";
+export default defineFmtConfig({ ...fmtConfig });
+```
+
+Add entries to the `scripts` section of `package.json`:
+```
+"fmt": "stripes-fmt ./src ./test",
+"fmt:check": "stripes-fmt --check ./src ./test",
+"lint": "stripes-lint --react-plugin --react-perf-plugin ./src",
+"lint:fix": "stripes-lint --react-plugin --react-perf-plugin --fix ./src",
 ```
 
 ## Usage
-Run `eslint src` in your terminal to lint the files in the `src` directory (or modify to wherever the primary source of your project lives).
 
-### Recommended
-Add to your `package.json` `scripts`, so you can simply run `yarn lint`:
-```
-"lint": "eslint src"
-```
+Run `yarn lint` (or `npm run lint`) and `yarn fmt` (or `npm run fmt`) in your
+terminal.
 
 ## Additional information
 
-See project [STRIPES](https://issues.folio.org/projects/STRIPES) at the [FOLIO issue tracker](http://dev.folio.org/community/guide-issues).
+See project [ESCONF](https://folio-org.atlassian.net/jira/software/c/projects/ESCONF/list) at the [FOLIO issue tracker](https://folio-org.atlassian.net/jira/projects).
 
 Other FOLIO Developer documentation is at [dev.folio.org](http://dev.folio.org/).
