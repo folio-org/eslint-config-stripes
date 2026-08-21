@@ -1,18 +1,24 @@
 export { defineConfig as defineLintConfig } from "oxlint";
 export { defineConfig as defineFmtConfig } from "oxfmt";
 
+// https://oxc.rs/docs/guide/usage/linter/config-file-reference.html
 export const lintConfig = {
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true,
+  },
+  // https://oxc.rs/docs/guide/usage/linter/plugins.html#supported-plugins
+  "plugins": ["jsx-a11y", "react", "react-perf"],
   "settings": {
     "jsx-a11y/aria-role": "warn"
   },
-  "env": {
-    "es2021": true
-  }
 };
 
+// https://oxc.rs/docs/guide/usage/linter/config-file-reference.html
 export const fmtConfig = {
-  "singleQuote": true,
   "ignorePatterns": [],
+  "singleQuote": true,
 };
 
 // module.exports = {
