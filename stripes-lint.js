@@ -12,7 +12,7 @@ import { fileURLToPath } from 'node:url';
 
 const oxlintPackage = fileURLToPath(import.meta.resolve('oxlint/package.json'));
 const oxlint = join(dirname(oxlintPackage), 'bin', 'oxlint');
-const result = spawnSync(oxlint, process.argv.slice(2), { stdio: 'inherit' });
+const result = spawnSync(process.execPath, [oxlint, ...process.argv.slice(2)], { stdio: 'inherit' });
 
 if (result.error) {
   throw result.error;
