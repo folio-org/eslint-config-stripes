@@ -1,6 +1,6 @@
 {
   "name": "@folio/eslint-config-stripes",
-  "version": "9.0.0",
+  "version": "10.0.0",
   "description": "The shared lint and format configurations for stripes applications and extensions",
   "main": "index.js",
   "type": "module",
