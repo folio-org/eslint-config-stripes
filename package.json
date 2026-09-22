@@ -14,10 +14,15 @@
   "repository": "https://github.com/folio-org/eslint-config-stripes",
   "license": "Apache-2.0",
   "keywords": [
-    "eslint", "eslintconfig", "lint", "lintconfig", "oxlint", "oxfmt"
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "lintconfig",
+    "oxlint",
+    "oxfmt"
   ],
   "dependencies": {
-    "oxfmt": "^0.64.0",
-    "oxlint": "^1.79.0"
+    "oxfmt": "^0.70.0",
+    "oxlint": "^1.85.0"
   }
 }
