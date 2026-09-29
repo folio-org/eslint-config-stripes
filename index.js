@@ -19,6 +19,10 @@ export const lintConfig = {
       "env": { "jest": true },
       "files": ["**/test/**", "src/**/tests/*", "*.test.js"],
       "plugins": ["jest"],
+      "rules": {
+        // testing-library's getBy* and findBy* queries throw when nothing matches, so they count as assertions
+        "jest/expect-expect": ["warn", { assertFunctionNames: ["expect", "screen.getBy*", "screen.findBy*"] }],
+      },
     },
   ],
 };
