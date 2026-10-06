@@ -22,12 +22,12 @@ yarn add -D @folio/eslint-config-stripes
 Create `oxlint.config.mts` and `oxfmt.config.mts` files in the root of your
 project:
 ```
-// oxfmt.config.mts
+// oxlint.config.mts
 import { defineLintConfig, lintConfig } from "@folio/eslint-config-stripes";
-export default defineConfig({ ...lintConfig });
+export default defineLintConfig({ ...lintConfig });
 
 // oxfmt.config.mts
-import { defineFmtConfig, fmttConfig } from "@folio/eslint-config-stripes";
+import { defineFmtConfig, fmtConfig } from "@folio/eslint-config-stripes";
 export default defineFmtConfig({ ...fmtConfig });
 ```
 
