@@ -2,15 +2,25 @@
   "name": "@folio/eslint-config-stripes",
   "version": "10.0.0",
   "description": "The shared lint and format configurations for stripes applications and extensions",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
   "type": "module",
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
   },
   "bin": {
-    "stripes-fmt": "stripes-fmt.js",
-    "stripes-lint": "stripes-lint.js"
+    "stripes-fmt": "dist/stripes-fmt.js",
+    "stripes-lint": "dist/stripes-lint.js"
   },
+  "files": [
+    "dist"
+  ],
   "repository": "https://github.com/folio-org/eslint-config-stripes",
   "license": "Apache-2.0",
   "keywords": [
@@ -24,5 +34,13 @@
   "dependencies": {
     "oxfmt": "^0.70.0",
     "oxlint": "^1.85.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepack": "yarn build"
   }
 }

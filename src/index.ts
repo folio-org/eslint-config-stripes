@@ -1,8 +1,11 @@
+import type { OxlintConfig } from "oxlint";
+import type { OxfmtConfig } from "oxfmt";
+
 export { defineConfig as defineLintConfig } from "oxlint";
 export { defineConfig as defineFmtConfig } from "oxfmt";
 
 // https://oxc.rs/docs/guide/usage/linter/config-file-reference.html
-export const lintConfig = {
+export const lintConfig: OxlintConfig = {
   "env": {
     "browser": true,
     "es2021": true,
@@ -28,7 +31,7 @@ export const lintConfig = {
 };
 
 // https://oxc.rs/docs/guide/usage/linter/config-file-reference.html
-export const fmtConfig = {
+export const fmtConfig: OxfmtConfig = {
   "ignorePatterns": [],
   "singleQuote": true,
 };
